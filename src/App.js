@@ -471,7 +471,7 @@ const theme = createMuiTheme({
 });
 
 const i18nProvider = polyglotI18nProvider(locale => messages[locale], 'fa');
-let authProvider = jwtTokenAuthProvider({obtainAuthTokenUrl: "http://172.16.0.36:8080/PMWorks/token/"});
+let authProvider = jwtTokenAuthProvider({obtainAuthTokenUrl: "http://127.0.0.1:8080/PMWorks/token/"});
 
 const App = () => {
     return(
